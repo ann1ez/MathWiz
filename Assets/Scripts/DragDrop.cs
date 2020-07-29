@@ -9,6 +9,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     private RectTransform rectTransform;
     private Vector3 origPos;
+    private Transform origParent;
 
     private CanvasGroup canvasGroup;
 
@@ -17,6 +18,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
         rectTransform = GetComponent<RectTransform>();
         origPos = rectTransform.anchoredPosition;
         canvasGroup = GetComponent<CanvasGroup>();
+        origParent = transform.parent;
     }
 
     public void OnBeginDrag(PointerEventData eventData)
@@ -35,7 +37,8 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log("EndDrag");
-        //rectTransform.anchoredPosition = origPos;
+        rectTransform.anchoredPosition = origPos;
+        //rectTransform.parent.transform.position
         canvasGroup.blocksRaycasts = true;
         canvasGroup.alpha = 1f;
     }
