@@ -30,7 +30,7 @@ public class DragDrop : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, I
 
     public void OnDrag(PointerEventData eventData)
     {
-        Debug.Log("Dragging");
+        //Debug.Log("Dragging");
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 

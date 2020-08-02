@@ -8,7 +8,7 @@ public class Fade : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
-    {
+    {        
         r = GetComponent<Renderer>();
         r.enabled = false;
         //StartCoroutine("FadeIn");

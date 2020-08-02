@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MathWiz.unity
+    path: Assets/Scenes/MathWizHome.unity
+    guid: d5d231fbbedbe0a4e905facc23a4ea7c
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve1Add.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve2Add.unity
+    guid: 68c9eb2f1d019ea4d9b2b5c59ce8d255
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve10Add.unity
+    guid: f4749c6909132ca43a34f50a2fee6ae2
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve11Add.unity
+    guid: 630adacbc684c8a498471ddf8eee18d2
+  - enabled: 1
+    path: Assets/Scenes/MathWizSuccess.unity
+    guid: 7abac76076d8a024f8e7412ce9ec7513
   m_configObjects: {}
