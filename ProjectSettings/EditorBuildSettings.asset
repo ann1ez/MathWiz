@@ -40,6 +40,27 @@ EditorBuildSettings:
     guid: f4749c6909132ca43a34f50a2fee6ae2
   - enabled: 1
     path: Assets/Scenes/MathWizLeve11Add.unity
+    guid: af3c23649e39ffa42841bfbc8334dffb
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve12Sub.unity
+    guid: 8a725bdf0f84e4543879d0c916db2fb0
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve13Sub.unity
+    guid: 7b534937f9e886741afe9f690b0c3cfb
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve14Sub.unity
+    guid: 3ab27de76ae7e054ea28f6632dd1ff67
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve15Sub.unity
+    guid: b2b8a70f5988c3a40b3216e2b09c24fa
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve16Sub.unity
+    guid: cb974224e2ef9b048affc035c5450142
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve17Sub.unity
+    guid: 83725cb2a0f05d241863df98340894d5
+  - enabled: 1
+    path: Assets/Scenes/MathWizLeve18Sub.unity
     guid: 630adacbc684c8a498471ddf8eee18d2
   - enabled: 1
     path: Assets/Scenes/MathWizSuccess.unity
